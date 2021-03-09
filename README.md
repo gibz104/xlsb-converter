@@ -3,7 +3,7 @@ Simple python script that converts all Excel files (xls, xlsx, xlsm, csv) in a d
 
 ***ONLY SUPPORTS WINDOWS***
 
-Simply pass a windows directory path to the 'main' function and all xls, xlsx, xlsm, and csv files in that directory will be saved as xlsb files in the same location.  This script does not delete the original files, but rather saves a new version of the orignal.  This repository uses WIN32COM, which is why this script only supports Windows.  If the script comes across a password protected workbook, you will be prompted to enter that workbook's password in an Excel popup window for the script to proceed.
+Simply pass a windows directory path to the 'main' function and all xls, xlsx, xlsm, and csv files in that directory will be saved as xlsb files in the same location.  This script does not delete the original files, but rather saves a new version of the originals.  This repository uses WIN32COM, which is why this script only supports Windows.  If the script comes across a password protected workbook, you will be prompted to enter that workbook's password in an Excel popup window for the script to proceed.
 
 ***EXAMPLE:***
 
