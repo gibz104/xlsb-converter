@@ -4,7 +4,7 @@ import win32com.client as win32
 import os
 
 def convertFiles(fileList):
-    'given a list of file paths, will save .xls, .xlsx, .xlsm, or .csv files as .xlsb in same folder'
+    'given a list of file paths, will save .xls, .xlsx, .xlsm, or .csv files as .xlsb in same directory'
     for file in fileList:
         if os.path.splitext(file)[1] in ['.xls', '.xlsx', '.xlsm', '.csv']:
             tgtPath = os.path.splitext(file)[0] + '.xlsb'
