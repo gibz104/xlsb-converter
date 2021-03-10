@@ -23,7 +23,7 @@ def convertFiles(fileList):
             print(f'Saved {tgtPath} from {file}')
 
 def getFiles(directory):
-    '''given a directory, will return list of all files in given directory'''
+    'given a directory, will return list of all files in given directory'
     fileList = []
     if directory[-1] != '\\':
         directory = directory + '\\'
@@ -33,8 +33,8 @@ def getFiles(directory):
     return fileList
 
 def main(directory):
-    '''given a windows formatted folder path, will convert all .xls, .xlsx, .xlsm, and .csv files in that directory
-    to .xlsb format'''
+    'given a windows formatted folder path, will convert all .xls, .xlsx, .xlsm, and .csv files in that directory
+    to .xlsb format'
     fileList = getFiles(directory)
     convertFiles(fileList)
     print('Done!')
